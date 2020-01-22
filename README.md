@@ -30,7 +30,7 @@ composer require emandiev/regex-replace-twig-filter
 {{ entry.heading|preg_replace('~pattern~', 'replacement') }}
 ```
 
-Any backslashes in the regular expression **must** to be double-escaped '\\' to work properly.
+Any backslashes in the regular expression **must** to be double-escaped ```\\``` to work properly.
 
 ## Credits
 
