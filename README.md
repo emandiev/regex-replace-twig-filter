@@ -32,11 +32,11 @@ composer require emandiev/regex-replace-twig-filter
 
 Any backslashes in the regular expression **must** to be double-escaped ```\\``` to work properly.
 
-## How is this different from Craft's [replace filter](https://docs.craftcms.com/v3/dev/filters.html#replace) ?
+## How is this different from Craft's [replace filter](https://docs.craftcms.com/v3/dev/filters.html#replace)?
 
 In short, the **preg_replace** filter offers a more direct call to PHP's ```preg_replace``` function.
 
-Craft's filter allows for both normal string and regex replacements, but slightly limits the regex replacement functionality.
+Craft's filter allows for both normal string and regex replacements but slightly limits the regex replacement functionality.
 
 ### Example 1
 
