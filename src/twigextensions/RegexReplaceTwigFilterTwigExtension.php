@@ -42,8 +42,8 @@ class RegexReplaceTwigFilterTwigExtension extends \Twig_Extension
         ];
     }
 
-    public function replace($subject, $pattern, $replacement)
+    public function replace($subject, $pattern, $replacement, $limit = -1)
     {
-        return preg_replace($pattern, $replacement, $subject);
+        return preg_replace($pattern, $replacement, $subject, $limit);
     }
 }
