@@ -1,10 +1,10 @@
-# Regex Replace Twig Filter plugin for Craft CMS 3.x
+# Regex Replace Twig Filter plugin for Craft CMS 3.x/4.x
 
 Adds PHP's preg_replace function as a Twig filter.
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0 or later.
+This plugin requires Craft CMS 3.0.0 or later or Craft 4.0.0-alpha.1 or later.
 
 ## Installation
 

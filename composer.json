@@ -2,7 +2,7 @@
     "name": "emandiev/regex-replace-twig-filter",
     "description": "Adds PHP's preg_replace function as a Twig filter.",
     "type": "craft-plugin",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "keywords": [
         "craft",
         "cms",
@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "craftcms/cms": "^3.0.0"
+        "craftcms/cms": "^3.0.0|^4.0.0-alpha.1"
     },
     "autoload": {
         "psr-4": {
