@@ -19,7 +19,7 @@ use Craft;
  * @package   RegexReplaceTwigFilter
  * @since     1.0.0
  */
-class RegexReplaceTwigFilterTwigExtension extends \Twig_Extension
+class RegexReplaceTwigFilterTwigExtension extends \Twig\Extension\AbstractExtension
 {
     // Public Methods
     // =========================================================================
@@ -38,7 +38,7 @@ class RegexReplaceTwigFilterTwigExtension extends \Twig_Extension
     public function getFilters()
     {
         return [
-            new \Twig_SimpleFilter('preg_replace', [$this, 'replace'], ['is_safe' => ['all']]),
+            new \Twig\TwigFilter('preg_replace', [$this, 'replace'], ['is_safe' => ['all']]),
         ];
     }
 
